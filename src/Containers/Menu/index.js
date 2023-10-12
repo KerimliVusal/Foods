@@ -1,8 +1,8 @@
 import React, { useState, useContext, useEffect } from "react";
-import CartContext from "../context";
+import CartContext from "../../context";
 import { Card, Button, Row, Col, Modal,Rate } from "antd";
 import { HeartOutlined, HeartFilled } from "@ant-design/icons";
-import { food } from "../data";
+import { food } from "../../data";
 import { toast } from 'react-toastify';
 
 const { Meta } = Card;
